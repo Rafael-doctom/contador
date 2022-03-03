@@ -1,6 +1,83 @@
-#content{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style:none;
+    text-transform: none;
+}
+
+body{
+    background-color: black;
+}
+
+main{
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 20vh auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    color:#21EB00;
+    letter-spacing: 0.45rem;
+}
+
+p{
+    color:white;
+    margin: 1rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 1rem;
+    border: 1px solid #191A18;
+    border-radius: 10px;
+    background-color: #191A18;
+    color:white;
+    font-size: 1rem;
+    width: 15vw;
+    height: 4vh;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+a{
+    background-color: #21EB00;
+    width: 15vw;
+    height: 4vh;
+    font-size: 1rem;
+    width: 15vw;
+    padding: 1rem;
+    height: 4vh;
+    border: 1px solid #191A18;
+    border-radius: 10px;
+    margin: 1rem auto;
+    color:black;
+    font-weight: 800;
+    font-size: 1.30rem;
+}
+
+
+
+
+
+
+
+.init{
+    display: flex;
+    justify-content: space-around;
 }
